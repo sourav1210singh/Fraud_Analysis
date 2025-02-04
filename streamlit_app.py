@@ -6,6 +6,7 @@ from datetime import datetime
 import numpy as np
 import pickle
 
+from xgboost import XGBClassifier
 from sklearn.preprocessing import LabelEncoder,StandardScaler
 
 st.title("Fraud Detection")
